@@ -132,13 +132,13 @@ line-height:1;
 
 .hero-text{
 
-font-size:22px;
+font-size:17px;
 
-max-width:600px;
+max-width:520px;
 
-margin-top:40px;
+margin-top:25px;
 
-line-height:1.5;
+line-height:1.7;
 
 }
 
@@ -208,9 +208,11 @@ padding:60px 0;
 
 .project h2{
 
-font-size:8vw;
+font-size:48px;
 
-font-weight:300;
+font-weight:400;
+
+letter-spacing:-1px;
 
 }
 

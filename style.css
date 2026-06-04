@@ -396,6 +396,47 @@ padding:20px;
 
 }
 
+.experience-item{
+
+border-top:1px solid black;
+
+padding:40px 0;
+
+max-width:900px;
+
+}
+
+
+.experience-item h3{
+
+font-size:32px;
+
+font-weight:400;
+
+}
+
+
+.experience-item span{
+
+display:block;
+
+margin:10px 0 20px;
+
+color:#7484ff;
+
+letter-spacing:1px;
+
+}
+
+
+.experience-item p{
+
+font-size:18px;
+
+line-height:1.6;
+
+}
+
 @media(max-width:800px){
 
 .gallery{

@@ -354,6 +354,34 @@ padding:15px;
 
 }
 
+.project-button{
+
+display:inline-block;
+
+margin-top:25px;
+margin-left:0;
+
+padding:14px 24px;
+
+border:1px solid black;
+
+font-size:12px;
+
+letter-spacing:2px;
+
+transition:.3s;
+
+}
+
+
+.project-button:hover{
+
+background:black;
+
+color:white;
+
+}
+
 @media(max-width:800px){
 
 .gallery{

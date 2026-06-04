@@ -594,14 +594,14 @@ CAPABILITIES
 
 .skills-grid{
 
-display:grid;
+display:flex;
 
-grid-template-columns:
-repeat(5,1fr);
+flex-direction:column;
 
-gap:25px;
+margin-top:70px;
 
-margin-top:60px;
+border-top:
+1px solid rgba(17,24,39,.2);
 
 }
 
@@ -609,16 +609,25 @@ margin-top:60px;
 
 .skills-grid div{
 
-background:white;
+display:grid;
 
-padding:35px;
+grid-template-columns:
+100px 280px 1fr;
 
-border-radius:22px;
+align-items:start;
 
-box-shadow:
-0 15px 40px rgba(0,0,0,.05);
+padding:35px 0;
 
-transition:.4s;
+border-bottom:
+1px solid rgba(17,24,39,.2);
+
+background:transparent;
+
+box-shadow:none;
+
+border-radius:0;
+
+transition:.3s;
 
 }
 
@@ -626,7 +635,33 @@ transition:.4s;
 
 .skills-grid div:hover{
 
-transform:translateY(-8px);
+transform:translateX(15px);
+
+}
+
+
+
+.skills-grid div::before{
+
+content:"0" counter(skill);
+
+counter-increment:skill;
+
+font-size:13px;
+
+font-weight:600;
+
+letter-spacing:3px;
+
+color:#6574E8;
+
+}
+
+
+
+.skills-grid{
+
+counter-reset:skill;
 
 }
 
@@ -634,11 +669,11 @@ transform:translateY(-8px);
 
 .skills-grid h3{
 
-font-size:17px;
+font-size:24px;
 
-font-weight:700;
+font-weight:600;
 
-margin-bottom:25px;
+letter-spacing:-1px;
 
 }
 
@@ -646,20 +681,15 @@ margin-bottom:25px;
 
 .skills-grid p{
 
-font-size:15px;
+font-size:17px;
 
 line-height:1.7;
 
 color:#374151;
 
+max-width:650px;
+
 }
-
-
-
-
-
-
-
 
 
 /* =========================

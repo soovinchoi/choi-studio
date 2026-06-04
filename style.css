@@ -532,7 +532,6 @@ SKILLS
 ========================= */
 
 
-
 .skills-grid{
 
 display:grid;
@@ -540,7 +539,9 @@ display:grid;
 grid-template-columns:
 repeat(5,1fr);
 
-gap:30px;
+gap:25px;
+
+margin-top:80px;
 
 }
 
@@ -548,9 +549,39 @@ gap:30px;
 
 .skills-grid div{
 
-border-top:1px solid #111;
+min-height:260px;
 
-padding-top:25px;
+border-top:1px solid rgba(0,0,0,.3);
+
+padding-top:30px;
+
+}
+
+
+
+.skills-grid div::before{
+
+content:"0" counter(skill);
+
+counter-increment:skill;
+
+display:block;
+
+font-size:11px;
+
+letter-spacing:3px;
+
+color:#7484ff;
+
+margin-bottom:40px;
+
+}
+
+
+
+.skills-grid{
+
+counter-reset:skill;
 
 }
 
@@ -558,9 +589,15 @@ padding-top:25px;
 
 .skills-grid h3{
 
-font-size:18px;
+font-size:16px;
 
-margin-bottom:20px;
+font-weight:400;
+
+letter-spacing:1px;
+
+text-transform:uppercase;
+
+margin-bottom:25px;
 
 }
 
@@ -570,10 +607,13 @@ margin-bottom:20px;
 
 font-size:14px;
 
-line-height:1.7;
+line-height:1.8;
+
+color:#333;
+
+max-width:180px;
 
 }
-
 
 
 

@@ -295,10 +295,9 @@ transition:.5s;
 
 filter:none;
 
-transform:scale(.97);
+transform:translateY(-8px);
 
 }
-
 
 
 footer{

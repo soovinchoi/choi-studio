@@ -782,33 +782,157 @@ z-index:200;
 
 
 
-/* MOBILE */
+/* =========================
+MOBILE OPTIMIZATION
+========================= */
 
 
 @media(max-width:900px){
 
 
+/* remove desktop cursor */
+
+.cursor{
+
+display:none;
+
+}
+
+
+
+/* NAV */
+
+
 nav{
 
-padding:0 25px;
+height:auto;
+
+padding:20px 6vw;
+
+align-items:flex-start;
+
+}
+
+
+.logo{
+
+width:45px;
+
+}
+
+
+nav div{
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:flex-end;
+
+gap:12px;
+
+max-width:250px;
 
 }
 
 
 nav a{
 
+margin-left:0;
+
 font-size:10px;
 
-margin-left:12px;
+letter-spacing:1.5px;
 
 }
 
 
+
+
+
+/* HERO */
+
+
+.hero{
+
+padding:
+
+130px 7vw 70px;
+
+min-height:90vh;
+
+}
+
+
+.hero-logo{
+
+width:110px;
+
+}
+
+
+h1{
+
+font-size:58px;
+
+letter-spacing:-3px;
+
+}
+
+
+.hero-text{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+
+.wave{
+
+font-size:10px;
+
+line-height:2;
+
+}
+
+
+
+
+
+/* SECTIONS */
+
+
+section{
+
+padding:
+
+80px 7vw;
+
+}
+
+
+.small{
+
+font-size:10px;
+
+letter-spacing:3px;
+
+}
+
+
+
+
+
+/* PROJECTS */
+
+
 .case{
 
-grid-template-columns:1fr;
+display:block;
 
-gap:40px;
+padding:60px 0;
 
 }
 
@@ -817,26 +941,198 @@ gap:40px;
 
 height:auto;
 
+padding:15px;
+
+border-radius:16px;
+
+margin-bottom:40px;
+
 }
+
+
+.case h2{
+
+font-size:45px;
+
+letter-spacing:-2px;
+
+}
+
+
+.case h3{
+
+font-size:19px;
+
+}
+
+
+.case p{
+
+font-size:15px;
+
+}
+
+
+
+
+
+/* LANDING PALS */
 
 
 .case-images{
 
 grid-template-columns:1fr;
 
+gap:20px;
+
 }
+
+
+.case-images img{
+
+height:auto;
+
+}
+
+
+
+
+
+/* TAGS */
+
+
+li{
+
+font-size:10px;
+
+padding:8px 12px;
+
+}
+
+
+
+
+
+/* EXPERIENCE */
+
+
+.experience-item{
+
+padding:30px;
+
+border-radius:18px;
+
+}
+
+
+.experience-item h3{
+
+font-size:26px;
+
+}
+
+
+.experience-item p{
+
+font-size:15px;
+
+}
+
+
+
+
+
+/* CAPABILITIES */
 
 
 .skills-grid{
 
-grid-template-columns:1fr;
+margin-top:40px;
 
 }
 
 
-h1{
+.skills-grid div{
 
-letter-spacing:-3px;
+display:block;
+
+padding:30px 0;
+
+}
+
+
+.skills-grid div:hover{
+
+transform:none;
+
+}
+
+
+.skills-grid div::before{
+
+margin-bottom:20px;
+
+display:block;
+
+}
+
+
+.skills-grid h3{
+
+font-size:22px;
+
+margin-bottom:15px;
+
+}
+
+
+.skills-grid p{
+
+font-size:15px;
+
+}
+
+
+
+
+
+/* ABOUT */
+
+
+#about h2{
+
+font-size:42px;
+
+letter-spacing:-2px;
+
+}
+
+
+.about-text{
+
+font-size:17px;
+
+line-height:1.7;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+padding:70px 8vw;
+
+font-size:10px;
+
+line-height:2;
+
+}
+
 
 }
 

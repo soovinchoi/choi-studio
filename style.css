@@ -158,13 +158,13 @@ letter-spacing:4px;
 
 .hero-logo{
 
-position:absolute;
+position:relative;
 
-width:220px;
+width:140px;
 
-opacity:.9;
+margin:35px 0;
 
-z-index:-1;
+opacity:1;
 
 animation:float 6s infinite ease-in-out;
 

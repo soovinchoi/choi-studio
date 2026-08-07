@@ -690,7 +690,89 @@ color:#374151;
 max-width:650px;
 
 }
+/* =========================
+VISUAL ARCHIVE
+========================= */
 
+#archive h2{
+
+font-size:clamp(45px,7vw,90px);
+
+font-weight:600;
+
+letter-spacing:-4px;
+
+margin-bottom:25px;
+
+}
+
+
+
+.archive-text{
+
+max-width:760px;
+
+font-size:19px;
+
+line-height:1.9;
+
+color:#374151;
+
+margin-bottom:60px;
+
+}
+
+
+
+/* Masonry Gallery */
+
+.photo-grid{
+
+columns:4 280px;
+
+column-gap:22px;
+
+margin-top:20px;
+
+}
+
+
+
+.photo-grid img{
+
+width:100%;
+
+display:block;
+
+margin-bottom:22px;
+
+border-radius:18px;
+
+background:white;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
+
+transition:
+transform .4s ease,
+box-shadow .4s ease;
+
+cursor:pointer;
+
+}
+
+
+
+.photo-grid img:hover{
+
+transform:
+translateY(-8px)
+scale(1.01);
+
+box-shadow:
+0 28px 60px rgba(0,0,0,.15);
+
+}
 
 /* =========================
 ABOUT

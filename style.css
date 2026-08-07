@@ -1260,7 +1260,44 @@ line-height:1.7;
 }
 
 
+/* VISUAL ARCHIVE */
 
+#archive h2{
+
+font-size:42px;
+
+letter-spacing:-2px;
+
+}
+
+
+.archive-text{
+
+font-size:16px;
+
+line-height:1.8;
+
+margin-bottom:35px;
+
+}
+
+
+.photo-grid{
+
+columns:2;
+
+column-gap:12px;
+
+}
+
+
+.photo-grid img{
+
+margin-bottom:12px;
+
+border-radius:12px;
+
+}
 
 
 /* FOOTER */
